@@ -1,0 +1,13 @@
+{
+  "name": "dummyjson-ecommerce-api-testing-project",
+  "version": "1.0.0",
+  "description": "Postman and Newman based API testing portfolio project for DummyJSON e-commerce style REST APIs.",
+  "scripts": {
+    "test": "newman run postman/DummyJSON_Ecommerce_API_Tests.postman_collection.json -e postman/DummyJSON_QA_Environment.postman_environment.json",
+    "test:report": "newman run postman/DummyJSON_Ecommerce_API_Tests.postman_collection.json -e postman/DummyJSON_QA_Environment.postman_environment.json -r cli,htmlextra --reporter-htmlextra-export reports/newman-report.html"
+  },
+  "devDependencies": {
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
