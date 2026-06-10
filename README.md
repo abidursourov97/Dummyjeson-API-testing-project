@@ -127,13 +127,5 @@ The Postman collection validates:
 
 DummyJSON is a mock REST API. Create, update, and delete requests are simulated, meaning they return expected responses but do not permanently modify the server data. This behavior is documented as a mock API limitation and is included in the test notes.
 
-## Resume Bullet Example
 
-- Created a REST API testing portfolio project using Postman and DummyJSON, covering authentication, products, product search, categories, carts, users, and negative scenarios.
-- Wrote Postman test scripts to validate status codes, response time, JSON response structure, required fields, and error handling.
-- Prepared QA documentation including test plan, test cases, bug report samples, test execution summary, and API test strategy.
-- Added Newman execution support and GitHub Actions workflow for automated API test execution.
-
-## Interview Summary
-
-I created an API testing project for an e-commerce style REST API. I tested product, cart, user, and authentication endpoints using Postman. I validated status codes, response time, JSON structure, required fields, positive scenarios, and negative scenarios. I also documented the test plan, test cases, bug report samples, and test execution summary.
+.
